@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dX761T4yUlw=",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\iiot-meter-system\\ModbusTest\\ModbusTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jee\\.nuget\\packages\\nmodbus\\3.0.83\\nmodbus.3.0.83.nupkg.sha512"
+  ],
+  "logs": []
+}
