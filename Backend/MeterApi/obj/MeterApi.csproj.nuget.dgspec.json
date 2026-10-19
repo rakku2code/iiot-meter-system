@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\MeterApi.csproj": {}
+    "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\MeterApi.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\MeterApi.csproj": {
+    "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\MeterApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\MeterApi.csproj",
+        "projectUniqueName": "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\MeterApi.csproj",
         "projectName": "MeterApi",
-        "projectPath": "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\MeterApi.csproj",
+        "projectPath": "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\MeterApi.csproj",
         "packagesPath": "C:\\Users\\Jee\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\obj\\",
+        "outputPath": "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jee\\AppData\\Roaming\\NuGet\\NuGet.Config"
