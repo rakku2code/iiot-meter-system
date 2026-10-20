@@ -54,7 +54,7 @@ iiot-meter-system/
 
 ### 1. 複製專案 (Clone Repository)
 ```
-git clone [https://github.com/rakku2code/iiot-meter-system.git](https://github.com/rakku2code/iiot-meter-system.git)
+git clone https://github.com/rakku2code/iiot-meter-system.git
 cd iiot-meter-system
 ```
 
@@ -74,7 +74,8 @@ cd Backend/MeterApi
 dotnet restore
 dotnet run
 ```
-* 後端 API 預設監聽網址：http://localhost:5056（每次請求會自動讀取 Modbus 並將數值同步寫入 SQLite 的 MeterLogs 資料表中）。
+* 後端 API 預設監聽網址：http://localhost:5056
+每次請求會自動讀取 Modbus 並將數值同步寫入 SQLite 的 MeterLogs 資料表中。
 
 ### 5. 啟動前端儀表板 (Frontend)
 開啟新的終端機視窗：
