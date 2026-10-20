@@ -54,7 +54,7 @@ iiot-meter-system/
 
 ### 1. 複製專案 (Clone Repository)
 ```
-git clone [https://github.com/你的帳號/iiot-meter-system.git](https://github.com/你的帳號/iiot-meter-system.git)
+git clone [https://github.com/rakku2code/iiot-meter-system.git](https://github.com/rakku2code/iiot-meter-system.git)
 cd iiot-meter-system
 ```
 
