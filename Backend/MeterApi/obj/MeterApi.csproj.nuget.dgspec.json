@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\MeterApi.csproj": {}
+    "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\MeterApi.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\MeterApi.csproj": {
+    "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\MeterApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\MeterApi.csproj",
+        "projectUniqueName": "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\MeterApi.csproj",
         "projectName": "MeterApi",
-        "projectPath": "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\MeterApi.csproj",
+        "projectPath": "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\MeterApi.csproj",
         "packagesPath": "C:\\Users\\Jee\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\iiot-meter-system\\backend\\meterapi\\obj\\",
+        "outputPath": "D:\\GitHub\\iiot-meter-system\\Backend\\MeterApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jee\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,12 @@
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.13, )"
             },

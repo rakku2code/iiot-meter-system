@@ -147,3 +147,23 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# SQLite Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# C# / .NET Temporary and Build Files
+[Bb]in/
+[Oo]bj/
+.vs/
+*.suo
+*.user
+*.nupkg
+
+# Operating System Temporary Files
+.DS_Store
+Thumbs.db
+
+# VS Code Local Settings (Optional)
+.vscode/settings.json

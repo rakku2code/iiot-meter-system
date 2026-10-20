@@ -1,6 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using MeterApi.Data;
 using MeterApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -20,6 +25,12 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    dbContext.Database.EnsureCreated();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
